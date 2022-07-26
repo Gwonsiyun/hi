@@ -1,0 +1,174 @@
+body {
+    background-color: #FAFAFA;
+    box-sizing: border-box;   
+    line-height: 18px;
+    font-size: 14px;
+}
+.basic {
+    background-color: #FFFFFF;
+}
+.topLine {
+    border-bottom: 1px solid #DBDBDBDB;  
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.westarFont{  
+    font-size: 45px;
+    text-align: center;    
+    font-family: 'Lobster', cursive;
+    margin-top: 5px;
+    font-size: 24px;
+}
+.icon {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+}
+.icon :nth-child(1) {
+    height: 28px;
+    width: 28px;
+    background-image: url("../img/home.png");
+    background-size: cover;
+}
+.icon :nth-child(2) {
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/airplane.png");
+    background-size: cover;
+}
+.icon :nth-child(3) {
+    height: 28px;
+    width: 28px;
+    background-image: url("../img/plus.png");
+    background-size: cover;
+}
+.icon :nth-child(4) {
+    height: 28px;
+    width: 28px;
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png");
+    background-size: cover;
+}
+.icon :nth-child(5) {
+    height: 28px;
+    width: 30px;
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png");
+    background-size: cover;
+}
+.icon :nth-child(6) {
+    height: 28px;
+    width: 28px;
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png");
+    background-size: cover;
+}
+.location{
+    margin-left: 100px;
+}
+.pos{
+    position: relative;
+}
+.search {
+    box-sizing: border-box;
+    padding-left: 25px;
+    height: 30px;
+    width: 260px;
+    border-radius: 3px;
+    border: 0;
+    background-color: #EFEFEF;
+}
+.searchIcon {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    height: 15px;
+}
+.top {
+    border: 1px solid #DBDBDBDB;
+    margin: 20px auto;
+    height: 60px;
+    width: 400px;
+    border-radius: 8px;
+}
+.topPropil :nth-child(n) {
+    height: 50px;
+    border-radius: 25px;
+    margin: 6px;
+}
+.feedBox {
+    position: relative;
+    margin: 20px auto;
+    height: 585px;
+    width: 400px;
+    border: 1px solid #DBDBDBDB;
+    border-radius: 8px;
+}
+.feedBox :nth-child(2) {
+    height: 430px;
+    width: 400px;
+}
+.feedtop {
+    width: 400px;
+    height: 55px;
+    border-bottom: 1px solid #DBDBDBDB;
+}
+.feedtop :nth-child(1) {
+    height: 40px;
+    margin: 8px;
+}
+.feedtop span {
+    position: absolute;
+    top: 16px;
+    left: 62px;
+    width: 150px;
+    height: 25px;
+}
+.feedUnder :nth-child(1){
+    position: absolute;
+    height: 24px;
+    top: 660px;
+    left: 540px;
+}
+.feedUnder :nth-child(2){
+    position: absolute;
+    height: 24px;
+    top: 660px;
+    left: 575px;
+}
+.feedUnder :nth-child(3){
+    position: absolute;
+    height: 30px;
+    top: 657px;
+    left: 605px;
+}
+.feedUnder span {
+    position: absolute;
+    top: 663px;
+    left: 847px;
+    font-weight: 600;
+}
+.feedUnder input {
+    position: absolute;
+    left: 50%;
+    top:720px;
+    margin-left: -200px;
+    width: 367px;
+    height: 23px;
+    border: 0;
+    border-top: 1px solid #DBDBDBDB;
+    padding-left: 30px;
+}
+input:focus{outline: none;}
+
+.feedUnder :nth-child(6){
+    position: absolute;
+    height: 20px;
+    top: 724px;
+    left: 535px;
+}
+.feedUnder :nth-child(7){
+    position: absolute;
+    height: 20px;
+    top: 724px;
+    left: 884px;
+}
